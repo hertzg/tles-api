@@ -1,6 +1,6 @@
 {
   "name": "tplink-easy-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "type": "module",
   "main": "src/main.js",
