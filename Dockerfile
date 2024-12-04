@@ -14,7 +14,7 @@ FROM base AS node_deps
 COPY package*.json ./
 RUN npm install
 
-FROM node:22-alpine
+FROM base
 COPY --from=node_deps /app/ /app/
 COPY --from=webproc /app/webproc /app/webproc
 COPY ./src ./src
